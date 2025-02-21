@@ -36,6 +36,10 @@ const router = createBrowserRouter([
        element: <Profile />
       },
       {
+       path: 'update-user-profile',
+       element: <Profile />
+      },
+      {
        path: 'add-task',
        element: <AddTask />
       },

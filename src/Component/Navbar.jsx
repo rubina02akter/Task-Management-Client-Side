@@ -86,18 +86,7 @@ const Navbar = () => {
           Available Camps
         </NavLink>
       </li> */}
-      <li key="menu">
-        <NavLink
-          to="/contact"
-          className={({ isActive }) =>
-            `flex items-center gap-2 hover:text-gray-300 ${
-              isActive ? "text-black" : ""
-            }`
-          }
-        >
-         Contact
-        </NavLink>
-      </li>
+     
 
       
       {/* {

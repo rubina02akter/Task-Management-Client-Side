@@ -50,11 +50,7 @@ const Dashboard = () => {
               <FaHome /> Home
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/contact">
-              <FaVoicemail /> Contact
-            </NavLink>
-          </li>
+         
          
         </ul>
      
@@ -95,11 +91,7 @@ const Dashboard = () => {
                 <FaHome /> Home
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/contact">
-                <FaVoicemail /> Contact
-              </NavLink>
-            </li>
+          
            
           </ul>
         )}
